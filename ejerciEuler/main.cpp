@@ -80,7 +80,7 @@ int main()
 //
 //        }
 //    }
-//    cout<<"El palindromo más grande hecho a partir del producto de dos numeros de 2"<<endl;
+//    cout<<"El palindromo mÃ¡s grande hecho a partir del producto de dos numeros de 2"<<endl;
 //    cout<<"es"<< lai <<"*"<< laj<<" es palindrome: "<<k<<endl;
 
 
@@ -137,7 +137,31 @@ int main()
 //                //con el y sale el 13
 //        }
 //    }
+///////////9
+    int k=0;
+    for(int a=1;a<1000;a++){
+        for(int b=2;b<1010;b++){
+            for(int c=3;c<1020;c++)
+            {
+                if(a<b && b<c)
+                {
+                    if((a*a)+(b*b)==c*c)
+                    {
+                        if(a+b+c==1000)
+                        {
+                            cout<<"a: "<<a<<endl;
+                            cout<<"b: "<<b<<endl;
+                            cout<<"c: "<<c<<endl;
+                            k=a*b*c;
+                        }
 
+                    }
+
+                }
+            }
+        }
+    }
+    cout<<k<<endl;
 /////////////////10
     int h=0;
     int num=10;
