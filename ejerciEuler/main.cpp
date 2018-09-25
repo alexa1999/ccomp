@@ -63,8 +63,8 @@ int main()
 //
 //    int a,b,c,d,e;
 //    int k,lai,laj;
-//    for(int i=10;i<=99;i++){
-//        for(int j=10;j<=99;j++)
+//    for(int i=10;i<=99;i++){//se le agrega 999
+//        for(int j=10;j<=99;j++)//999
 //        {
 //            a=i*j;
 //            b=a/1000%10;
@@ -136,7 +136,7 @@ int main()
 //        }
 //        if (a==2){
 //            y+=1;
-//            if(y==6)
+//            if(y==6)//si es el sexto num primo sale 13
 //                cout<<j<<endl;
 //                //con el y sale el 13
 //        }
