@@ -11,7 +11,7 @@ int fibo(int n)
 
 int main()
 {
-    //////1
+    //////1-Multiples of 3 and 5
 
 //    int n;
 //    cout<<"ingrese un numero :";
@@ -36,7 +36,7 @@ int main()
 //          }
 //    }
 //    cout<<suma;
-//////3
+//////3-El factor primo más grande
 //    int a=600851475143;
 //    int l;
 //    for(int b=1;b<=a;b++){
@@ -58,7 +58,8 @@ int main()
 //    }
 //    cout<<"el ultimo primo divisib le entre 600851475143:  "<<l<<endl;
 
-///////////////////4
+///////////////////4-
+//Encuentra el palíndromo más grande hecho con el producto de dos números de 3 dígitos.
 //
 //    int a,b,c,d,e;
 //    int k,lai,laj;
@@ -85,6 +86,7 @@ int main()
 
 
 //////////////5
+//¿Cuál es el número positivo más pequeño que es uniformemente divisible por todos los números del 1 al 20?
 //    int a=2529;
 //    int k=0;
 //    int i;
@@ -105,6 +107,7 @@ int main()
 //    }
 
 /////////6
+//Encuentra la diferencia entre la suma de los cuadrados de los primeros cien números naturales y el cuadrado de la suma.
 //    int suma=0;
 //    int suman=0;
 //    for(int i =1;i<101;i++)
@@ -121,6 +124,7 @@ int main()
 //    cout<<"la resta de "<< k << " y " << suma <<"es igual    "<<diferencia<<endl
 
 /////////7
+    //¿Cuál es el 10 001 primer número primo?
 //    int y=0;
 //    for (int j=2;j<=20;j++){
 //        int a=0;
@@ -138,6 +142,9 @@ int main()
 //        }
 //    }
 ///////////9
+    
+//Existe exactamente un triplete pitagórico para el cual a + b + c = 1000.
+//Encuentra el producto abc.
     int k=0;
     for(int a=1;a<1000;a++){
         for(int b=2;b<1010;b++){
@@ -163,6 +170,8 @@ int main()
     }
     cout<<k<<endl;
 /////////////////10
+ //   Encuentra la suma de todos los primos por debajo de dos millones.
+
     int h=0;
     int num=10;
     for (int j=2;j<=num;j++){
