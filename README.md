@@ -1,4 +1,5 @@
-# ccomp#include <iostream>
+# ccomp
+segunda parte
 
-using namespace std;
+
 
