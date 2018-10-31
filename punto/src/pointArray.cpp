@@ -53,10 +53,13 @@ void pointArray::insert (const int pos,const point &p)
 }
 void pointArray::remove (const int pos)
 {
+    {
+
+    for(int i = pos; i < size-1; i++)
+        points[i] = points[i+1];
     resize(size-1);
-    for(int i=size-1;i<pos;i--){
-        points[i]=points[i-1];
-    }
+
+}
 
 
 }
