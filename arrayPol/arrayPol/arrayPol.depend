@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1541595805 source:d:\anel\arraypol\main.cpp
+	<iostream>
+	"Polygon.h"
+	"PolyArray.h"
+	"Rectangle.h"
+	"Triangle.h"
+
+1541596307 d:\anel\arraypol\include\polygon.h
+	<iostream>
+
+1541595320 d:\anel\arraypol\include\rectangle.h
+	"Polygon.h"
+
+1541595551 d:\anel\arraypol\include\triangle.h
+	"Polygon.h"
+
+1541593796 source:d:\anel\arraypol\src\polygon.cpp
+	"Polygon.h"
+
+1541568255 source:d:\anel\arraypol\src\rectangle.cpp
+	"Rectangle.h"
+
+1541568255 source:d:\anel\arraypol\src\triangle.cpp
+	"Triangle.h"
+
+1541569699 source:d:\anel\arraypol\src\polyarray.cpp
+	"PolyArray.h"
+
+1541569406 d:\anel\arraypol\include\polyarray.h
+	"Polygon.h"
+
