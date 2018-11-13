@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1514140574 source:d:\ccomp1_2018\rolinson\puntito\main.cpp
+	<iostream>
+
+1542120555 source:d:\ccomp1_2018\rolinson\puntito\src\point.cpp
+	"Point.h"
+	"point.h"
+	"iostream"
+
+1542120733 d:\ccomp1_2018\rolinson\puntito\include\point.h
+
+1542120570 source:d:\ccomp1_2018\rolinson\puntito\src\pointarray.cpp
+	"pointArray.h"
+	"iostream"
+
+1542120399 d:\ccomp1_2018\rolinson\puntito\include\pointarray.h
+	"point.h"
+
