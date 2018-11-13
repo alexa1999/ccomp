@@ -6,7 +6,7 @@ PolyArray::PolyArray()
     this->polygons = new Polygon[size];
 }
 
-PolyArray::PolyArray(const Polygon pls[], const int size) {
+PolyArray::PolyArray(const Polygon *pls, const int size) {
     this->size = size;
     this->polygons = new Polygon[size];
     for(int i = 0; i < size; i++)

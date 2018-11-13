@@ -1,22 +1,12 @@
 #include "Polygon.h"
 
-//Polygon::Polygon()
-//{
-//    //ctor
-//}
-//
-//Polygon::~Polygon()
-//{
-//    //dtor
-//}
-void Polygon::print(){
-    cout<<width;
-    cout<<height;
-}
-void Polygon::setW(int x){
-    this->width=x;
-}
+Polygon::Polygon(){}
+Polygon::Polygon(int a,int b):width(a),height(b){}
 
-void Polygon::setH(int y){
-    this->height=y;
+int Polygon::area(void){}
+
+
+
+void Polygon::print(){
+    cout<<this->area()<<endl;
 }

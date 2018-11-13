@@ -5,7 +5,7 @@
 class Rectangle:public Polygon
 {
     public:
-        //Rectangle(int,int);
+        Rectangle(int a,int b):Polygon(a,b){};
         int area();
 
 };
