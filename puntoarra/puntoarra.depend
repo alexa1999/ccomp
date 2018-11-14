@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1540966529 source:d:\anel\puntoarra\main.cpp
+	<iostream>
+	"Point.h"
+	"PointArray.h"
+
+1542201773 d:\anel\puntoarra\include\point.h
+
+1542201788 d:\anel\puntoarra\include\pointarray.h
+	"Point.h"
+	<iostream>
+
+1540962357 source:d:\anel\puntoarra\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1540966516 source:d:\anel\puntoarra\src\pointarray.cpp
+	"PointArray.h"
+
