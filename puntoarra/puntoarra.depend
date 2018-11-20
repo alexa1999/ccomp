@@ -17,3 +17,21 @@
 1540966516 source:d:\anel\puntoarra\src\pointarray.cpp
 	"PointArray.h"
 
+1542723217 source:d:\vv\ccomp-master\puntoarra\main.cpp
+	<iostream>
+	"Point.h"
+	"PointArray.h"
+
+1542191106 d:\vv\ccomp-master\puntoarra\include\point.h
+
+1542726064 d:\vv\ccomp-master\puntoarra\include\pointarray.h
+	"Point.h"
+	<iostream>
+
+1542191106 source:d:\vv\ccomp-master\puntoarra\src\point.cpp
+	<iostream>
+	"Point.h"
+
+1542724686 source:d:\vv\ccomp-master\puntoarra\src\pointarray.cpp
+	"PointArray.h"
+

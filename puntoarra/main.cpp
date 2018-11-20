@@ -6,15 +6,20 @@ using namespace std;
 
 int main()
 {
-    Point p(1, 4);
-    Point q(5, 5);
-    Point r(4, 4);
-    Point arr[] = {p, q , r};
+    Point<int> p(1, 4);
+    Point<int>  q(5, 5);
+    Point<int>  r(4, 4);
+
+    Point<int>  s(3,2);
+    Point<int>  t(3,7);
+    Point<int>  u(0,2);
+    Point<int>  arr[] = {p, q , r};
+    Point<int>  arr1[]={s,t,u};
     int size = sizeof(arr)/sizeof(arr[0]);
+    int size1 =sizeof(arr1)/sizeof(arr1[0]);
+    PointArray<int>  pa2(arr, size);
 
-    PointArray pa2(arr, size);
-
-    PointArray pa = pa2;
+    PointArray<int>  pa = pa2;
     cout << endl;
     cout << pa.getSize() << endl;
     pa.print();
