@@ -35,3 +35,16 @@
 1542724686 source:d:\vv\ccomp-master\puntoarra\src\pointarray.cpp
 	"PointArray.h"
 
+1542809440 source:d:\aaaa\ccomp-master\puntoarra\src\point.cpp
+	"Point.h"
+
+1542809544 d:\aaaa\ccomp-master\puntoarra\include\point.h
+	<iostream>
+
+1542809440 source:d:\aaaa\ccomp-master\puntoarra\src\pointarray.cpp
+	"PointArray.h"
+
+1542812266 d:\aaaa\ccomp-master\puntoarra\include\pointarray.h
+	"Point.h"
+	<iostream>
+

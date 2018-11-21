@@ -1,5 +1,7 @@
 #include <iostream>
+
 #include "Point.h"
+
 #include "PointArray.h"
 
 using namespace std;
@@ -18,8 +20,10 @@ int main()
     int size = sizeof(arr)/sizeof(arr[0]);
     int size1 =sizeof(arr1)/sizeof(arr1[0]);
     PointArray<int>  pa2(arr, size);
+    PointArray<int>  pa3(arr1, size1);
 
     PointArray<int>  pa = pa2;
+    PointArray<int>  paA = pa3;
     cout << endl;
     cout << pa.getSize() << endl;
     pa.print();
@@ -36,5 +40,6 @@ int main()
     pa.clear();
     cout << endl;
     cout << pa.getSize() << endl;
+    PointArray <int> c=pa+paA;
     return 0;
 }
